@@ -12,7 +12,7 @@ print('Asteroid processing service')
 
 # Initiating and reading config values
 print('Loading configuration from file')
-
+# Read Config file
 try:
 	config = ConfigParser()
 	config.read('config.ini')
@@ -24,8 +24,8 @@ except:
 print('DONE')
 
 # NASA api key 
-nasa_api_key = "z8g9dab0bQthQ6WkRd3pr3LOe2uLZHiGAhv9nl8F"
-nasa_api_url = "https://api.nasa.gov/neo/"
+# nasa_api_key = "z8g9dab0bQthQ6WkRd3pr3LOe2uLZHiGAhv9nl8F"
+# nasa_api_url = "https://api.nasa.gov/neo/"
 
 # Getting todays date
 dt = datetime.now()
