@@ -21,7 +21,7 @@ try:
 	nasa_api_url = config.get('nasa', 'api_url')
 except:
                 logger.exception('')
-        logger.info('DONE')
+        print('DONE')
 
 # NASA api key 
 nasa_api_key = "z8g9dab0bQthQ6WkRd3pr3LOe2uLZHiGAhv9nl8F"
